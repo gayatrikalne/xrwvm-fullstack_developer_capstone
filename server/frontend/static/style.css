@@ -124,3 +124,46 @@ img{
     text-align:center;
     box-shadow: 2px 2px 3px #999;  
 }
+
+body {
+      background-color: #f8f9fa;
+    }
+    .about-header {
+      text-align: center;
+      padding: 40px 20px;
+    }
+    .about-header h1 {
+      font-weight: bold;
+      margin-bottom: 15px;
+    }
+    .team-container {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      margin: 30px auto;
+      width: 90%;
+    }
+    .team-card {
+      width: 300px;
+      margin: 15px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      border-radius: 10px;
+      overflow: hidden;
+      background-color: white;
+      text-align: center;
+    }
+    .team-card img {
+      height: 280px;
+      object-fit: cover;
+    }
+    .team-card .card-body {
+      padding: 20px;
+    }
+    .team-card .name {
+      font-size: 1.25rem;
+      font-weight: bold;
+    }
+    .team-card .role {
+      color: #6c757d;
+      margin-bottom: 10px;
+    }
