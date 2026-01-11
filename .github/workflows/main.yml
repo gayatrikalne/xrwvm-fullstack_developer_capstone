@@ -30,7 +30,8 @@ jobs:
       run: pwd
 
     - name: Run Linter
-      run: flake8 .
+      run: flake8 --config .flake8 .
+
 
   lint_js:
       name: Lint JavaScript Files
