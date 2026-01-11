@@ -30,11 +30,7 @@ jobs:
       run: pwd
 
     - name: Run Linter
-      run: |
-        pwd
-        # This command finds all Python files recursively and runs flake8 on them
-        find . -name "*.py" -exec flake8 {} +
-        echo "Linted all the python files successfully"
+      run: flake8 .
 
   lint_js:
       name: Lint JavaScript Files
